@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My First HTML Form</title>  
+</head>
+<body>
+	<h2>User Login</h2>
+	<form method="POST" action="http://request-inspector.glitch.me/">
+    <div>
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" placeholder="Enter your username here">
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="Enter your password here">
+    </div>
+    <div>
+        <button type="submit">Login</button> 
+    </div>
+	</form>
+    <h2>Compose an Email</h2> 
+    <form method="POST" action="http://request-inspector.glitch.me/">
+    <p>
+    	<label for="to">To</label>
+    	<input id="to" type="text" name="to">
+    </p>
+    <p>
+    	<label for="from">From</label>
+    	<input id="from" type="text" name="from">
+    </p>
+    <p>
+    	  <label for="subject">Subject</label>
+    	  <input id="subject" name="subject" type="text">
+    </p>
+    <p>
+    	<label for="body">Body</label>
+    	<textarea id="body" name="body" rows="5" cols="40">Content Here</textarea>
+
+    </p>
+    <p>
+    	<button type="submit">Send</button>
+    </p>
+    </form>
+    <h2>Select Testing</h2>
+    <p>
+    	<label for="basicinput">Select Your Basic Input:</label>
+    	<select id="basicinput" name="basicinput">
+    		<option value="0">No</option>
+    		<option selected value="1">Yes</option>
+    		
+    	</select>
+    	
+    </p>
+
+</body>
+</html>
